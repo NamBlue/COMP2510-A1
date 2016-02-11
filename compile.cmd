@@ -1,1 +1,1 @@
-gcc -ansi -W -Wall -pedantic 1.c -o1
+gcc -ansi -W -Wall -pedantic Database.c -o Database
