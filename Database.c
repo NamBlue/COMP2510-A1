@@ -204,7 +204,7 @@ void modifyRecord(int n, FILE * file) {
     char id[11];
     int grade;
     
-    n = 14 * (n - 1);
+    n = 15 * (n - 1);
     if (fseek(file, n, SEEK_SET) != 0) {
         perror("fseek");
     }
